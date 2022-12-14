@@ -1,4 +1,10 @@
-# Count Down Timer with events
+# Count Down Timer with Events
+
+Intermediate level task for practice events. 
+
+Estimated time to complete the task - 45 min.  
+
+The task requires .NET 6 SDK installed.  
 
 ## Task description
 
