@@ -8,8 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task description
 
-- You need to implement the `Timer` class for simulating a countdown clock. The Timer has the ability to send out messages with the information about  `Started`, `Tick` and `Stopped` events to other types subscribed to the events. Use `Action<>` delegates as event handler delegates. 
-    _Don't use the .NET System. Timer classes for the Timer implementation_.    
+- You need to implement the `Timer` class for simulating a countdown clock. The Timer has the ability to send out messages with the information about  `Started`, `Tick` and `Stopped` events to other types subscribed to the events. Use `Action<>` delegates as event handler delegates. _Don't use the .NET System. Timer classes for the Timer implementation_.    
 - The `Timer` class should have the following functionality:
     - When an object of the `Timer` class is constructed it has to be assigned:
         - Name (not a null or an empty string, otherwise the exception `ArgumentException` should be thrown);
