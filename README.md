@@ -1,4 +1,4 @@
-# Count Down Timer. Action Event Handler. 
+# Count Down Timer with Action. 
 
 Intermediate level task for practice events. 
 
