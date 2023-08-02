@@ -19,7 +19,20 @@
     /// </summary>
     public class Timer
     {
-        // TODO: Add implementation here.
-        // Don't use .NET timers classes implementation.
+        public string Name { get; private set; }
+
+        public int Ticks { get; private set; }
+
+        public object Start { get; internal set; }
+
+        public object Stop { get; internal set; }
+
+#pragma warning disable SA1201
+        public Timer(string name, int ticks)
+#pragma warning restore SA1201
+        {
+           this.Name = name;
+           this.Ticks = ticks;
+        }
     }
 }
